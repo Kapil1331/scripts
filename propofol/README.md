@@ -41,4 +41,4 @@ systemctl --user enable --now propofol.service
 ## D-bus
 - An IPC system
 - Using this instead of systemctl suspend to overcome the problem of authorization for non-root users
-- Uses the Polkit (PolicyKit) auth rules (defined in /etc/polkit-1/riles.d/*) to authorize the request
+- Uses the Polkit (PolicyKit) auth rules (defined in /etc/polkit-1/rules.d/*) to authorize the request
